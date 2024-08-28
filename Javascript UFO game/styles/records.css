@@ -1,0 +1,178 @@
+.navbar {
+    width: 100%;
+    height: 8vh;
+    background-color: #ec9a39;
+    font-family: "Arial";
+    font-size: 2vmax ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.navbar-item1 {
+    /* width: 40vw; */
+    font-size: 80%;
+    /* margin-top: 3%; */
+    color: rgb(74, 121, 192);
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: auto;
+    /* border: solid black 1px; */
+}
+
+.navbar-item2 {
+    
+    /* width: 100vw; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 2vh;
+    color: rgb(74, 121, 192);
+    flex-grow: 2;
+    /* border: solid black 1px; */
+    text-align: center;
+}
+
+.navbar-item3 {
+    /* width: 40vw; */
+    padding-top: 2vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(74, 121, 192);
+    flex-grow: 1;
+    /* border: solid black 1px; */
+    text-align: center;
+}
+
+.navbar-item4 {
+    
+    /* width: 100%; */
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 2vh;
+    color: rgb(74, 121, 192);
+    flex-grow: 1;
+    /* border: solid black 1px; */
+    text-align: center;
+}
+
+.navbar-item1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-item1 p {
+    display: inline;
+    position: absolute;
+    
+}
+
+.navbar-item2 p {
+    display: inline;
+    position: absolute;
+    text-align: justify;
+    /* border: solid rgb(74, 6, 6) 1px; */
+}
+
+.navbar-item3 p {
+    display: inline;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(74, 121, 192);
+}
+
+.container {
+    border-radius: 0.5vmax;
+    background-color: #eac274;
+    width: 90vw;
+    height: fit-content;
+    margin: auto;
+    margin-top: 15vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border: 0.3vmax solid rgb(74, 121, 192);
+}
+
+fieldset {
+    text-align: center;
+    border-bottom: rgb(27, 58, 105) solid  0.4vmax;
+    border-right: rgb(27, 58, 105) solid  0.4vmax;
+    border-top: #e29c10 solid  0.4vmax;
+    border-left: #e29c10 solid  0.4vmax;
+    font-size: 1.5vmax;
+    width: 40vw;
+    height: fit-content;
+    margin: auto;
+    
+}
+
+legend {
+    margin-left: -15vmax;
+    display: flex;
+    flex-direction: row;
+}
+
+legend p {
+    width: fit-content;
+    height: 1vh;
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 2vmax;
+    color: rgb(74, 121, 192);
+    font-weight: 500;
+}
+
+input {
+    border-radius: 0.4vmax;
+    width: 4vw;
+    height: 3vh;
+    text-align: left;
+    border: 0px;
+}
+
+.form-content {
+    
+    font-weight: 600;
+}
+
+.ranking {
+    /* border: 1px solid black; */
+    width: 40vw;
+    height: 20vh;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.ranking tr {
+    text-align: center;
+}
+
+#header {
+    border-bottom: 0.15vmax solid rgb(135, 135, 135);
+}
+
+.row {
+    border-bottom: 0.15vmax solid rgb(48, 89, 152);
+}
+
+#first {
+    border-bottom: 0.15vmax solid rgb(48, 89, 152);
+}
+
+#second{
+    border-bottom: 0.15vmax solid rgb(48, 89, 152);
+}
+
+#third {
+    border-bottom: 0.15vmax solid rgb(48, 89, 152);
+}
+
+#fourth {
+    border-bottom: 0.15vmax solid rgb(48, 89, 152);
+}

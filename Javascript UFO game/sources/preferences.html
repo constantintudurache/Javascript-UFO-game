@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preferences</title>
+    <link rel="stylesheet" href="../styles/preferences.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-item1">
+        <img src="../pictures/upm-logo.png" alt="" />
+      </div>
+      <div class="navbar-item4">U.P.M UFO Battle</div>
+      <div class="navbar-item2">
+        <a href="home.html">Home</a> <a href="preferences.html">Preferences</a>
+        <a href="play.html">Play</a> <a href="records.html">Records</a>
+      </div>
+      <div class="navbar-item3">
+        <a href="register.html">Register</a> <a href="login.html">Login</a>
+      </div>
+    </div>
+
+    <div class="container">
+        <fieldset> 
+            <legend>
+                <img src="../pictures/logo-3.png" alt="">
+                <p>Preferences</p>
+            </legend>
+            <div class="form-content">
+                
+                <label for="UFO-number">Number of UFO's:</label>
+                <select name="UFO-number" id="UFO-number">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+
+                <br /><br />
+                <label for="Time">Time (Seconds) :</label>
+                <select name="Time" id="Time">
+                  <option value="60">60</option>
+                  <option value="120">120</option>
+                  <option value="180">180</option>
+                </select>
+                <br /><br />
+
+                <button type='button' id = "Accept" >Accept</button> 
+            </div>
+            
+         </fieldset>
+    </div>
+    <script src="../scripts/preferences.js"></script>
+  </body>
+</html>

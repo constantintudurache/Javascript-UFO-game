@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../styles/register.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-item1">
+        <img src="../pictures/upm-logo.png" alt="" />
+      </div>
+      <div class="navbar-item4">U.P.M UFO Battle</div>
+      <div class="navbar-item2">
+        <a href="home.html">Home</a> <a href="preferences.html">Preferences</a>
+        <a href="play.html">Play</a> <a href="records.html">Records</a>
+      </div>
+      <div class="navbar-item3">
+        <a href="register.html">Register</a> <a href="login.html">Login</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <fieldset>
+        <legend>
+          <img src="../pictures/logo-3.png" alt="" />
+          <p>Register new User</p>
+        </legend>
+        <div class="form-content">
+          <form action="">
+            User:
+            <input
+              type="text"
+              id="user"
+              placeholder="User identifier"
+              required
+            />
+            <br /><br />
+            Emal:
+            <input type="text" id="email" placeholder="Email" required />
+            <br /><br />
+            Password:
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+            <br /><br />
+            Repeat password:
+            <input type="password" id="repeat-password" required /><br /><br />
+            <button type="button" id="send">Send</button>
+          </form>
+        </div>
+      </fieldset>
+    </div>
+    <script src="../scripts/register.js"></script>
+  </body>
+</html>
